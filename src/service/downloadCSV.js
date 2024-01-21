@@ -7,21 +7,11 @@ function downloadCSV() {
         verMais.click();
     }, 1000);
 
-
-    function fazerScroll() {
-        document.querySelector('._3YS_f._2A1R8').scrollIntoView({
-            behavior: 'smooth',
-            block: 'end',
-            inline: 'start'
-        });
-    }
     setTimeout(function() {
-        fazerScroll();
+        document.getElementsByClassName("cm280p3y p357zi0d f8m0rgwh gndfcl4n ac2vgrno ln8gz9je s4r5ooj2 lffynu9d sdfuwbjb")[0].style.cssText = "width: 100px; height: 99000px;"; 
     }, 2000);
 
-
     setTimeout(function() {
-        
         // Obtenha os elementos e armazene no array numeros
         var elementos = document.querySelectorAll('.g0rxnol2.ggj6brxn.m0h2a7mj.r6au09pb.fd365im1.hmy10g0s')[0].querySelectorAll('._21S-L');
         
@@ -51,20 +41,17 @@ function downloadCSV() {
             link.click();
             document.body.removeChild(link);
         }
-    }, 5000);  // Ajuste o tempo conforme necessário
+    }, 5000);  
 
-    
     setTimeout(function() {
         var close = document.getElementsByClassName('kk3akd72 dmous0d2 fewfhwl7 ajgl1lbb ltyqj8pj')[0]
         close.click()
-    }, 10000);
-    
-    
+    }, 7000);
 
     setTimeout(function() {
         var close2= document.getElementsByClassName('kk3akd72 svlsagor fewfhwl7 ajgl1lbb ltyqj8pj')[0]
         close2.click()
-    }, 11000);
+    }, 8000);
     
 }
 
