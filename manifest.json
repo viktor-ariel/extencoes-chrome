@@ -1,8 +1,8 @@
 {
     "manifest_version" : 2,
-    "name":"Download numbers",
+    "name":"Download Numbers Group",
     "version":"1.0",
-    "description":"baixar numeros do whatsapp",
+    "description":"baixar números do whatsapp",
 
     "backgroud":{
         "scripts":["src/backgroud.js"],
@@ -11,13 +11,14 @@
     
     
     "browser_action": {
-      
         "default_title":"Download Numbers",
-        "default_popup": "src/index.html"
+        "default_popup": "src/pages/index.html"
     },
     "content_scripts":[
         {
             "js":[
+                "src/components/button.js",
+                "src/service/downloadCSV.js",
                 "src/main.js"
             ],
             "matches":[
